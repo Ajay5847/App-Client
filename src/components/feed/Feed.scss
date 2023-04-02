@@ -22,14 +22,33 @@
         }
     }
 
+    .left-side::-webkit-scrollbar {
+        display: none;
+    }
+    
+    .left-side {
+        -ms-overflow-style: none;  /* IE and Edge */
+        scrollbar-width: none;  /* Firefox */
+    }
+
     .right-side {
         flex: 1;
         border: 1px solid grey;
         border-radius: 4px;
+        overflow-y: scroll;
 
         .title {
             text-align: center;
             padding: 10px;
         }
+    }
+
+    .right-side::-webkit-scrollbar {
+        display: none;
+    }
+    
+    .right-side {
+        -ms-overflow-style: none;  /* IE and Edge */
+        scrollbar-width: none;  /* Firefox */
     }
 }

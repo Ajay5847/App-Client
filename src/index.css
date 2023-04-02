@@ -6,25 +6,22 @@
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: -Pacaembu, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
-
 
 .hover-link {
   cursor: pointer;
 }
 
 .hover-link:active {
-  color:  #d14134;
+  color: #d14134;
 }
 
 .container {
@@ -47,4 +44,3 @@ code {
   border-radius: 10px;
   cursor: pointer;
 }
-
