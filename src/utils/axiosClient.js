@@ -66,4 +66,5 @@ axiosClient.interceptors.response.use(async (response) => {
     type: TOAST_FAILURE,
     message: error.message
   }))
+  return Promise.reject(error);
 });
