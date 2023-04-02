@@ -35,8 +35,7 @@ function UpdateProfile() {
         bio,
         userImg
     }))
-    setBio('');
-    setName('')
+    
   }
 
   return (
