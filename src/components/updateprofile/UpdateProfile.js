@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "./UpdateProfile.scss";
-import backgroundImg from '../../assets/background.jpg';
+import userImage from '../../assets/user.png';
 import { useDispatch, useSelector } from "react-redux";
 import { updateMyProfile } from "../../redux/slices/appConfigSlice";
 
@@ -44,7 +44,7 @@ function UpdateProfile() {
         <div className="left-part">
           <div className="input-user-img">
             <label htmlFor="user-img" className="labelImg">
-              <img src={userImg ? userImg : backgroundImg} alt={name} />
+              <img src={userImg ? userImg : userImage} alt={name} />
             </label>
             <input
               type="file"
