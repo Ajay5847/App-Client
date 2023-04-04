@@ -20,7 +20,7 @@ function Feed() {
     <div className='feed'>
       <div className="container">
         <div className="aside">
-          <Myself />
+          <Myself className='myself' />
         </div>
         <div className="left-side">
           <div className="create-post">

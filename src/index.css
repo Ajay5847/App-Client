@@ -9,6 +9,7 @@ body {
   font-family: -Pacaembu, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(59, 55, 55);
 }
 
 code {
