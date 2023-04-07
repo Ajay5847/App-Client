@@ -35,7 +35,9 @@ function Feed() {
           </div>
           <div className="Suggestions">
           <h3 className="title">Suggestions</h3>
+          <div className="followers">
           {feedData?.Suggestions?.map((user) => <Follower key={user._id} user={user} />)}
+          </div>
           </div>
         </div>
       </div>

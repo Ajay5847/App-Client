@@ -10,6 +10,7 @@ body {
   font-family: 'Poppins', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #000000;
   /* background-color: rgb(59, 55, 55); */
 }
 
@@ -35,7 +36,7 @@ code {
   border: none;
   padding: 10px 20px;
   border-radius: 10px;
-  background-color: rgb(44, 136, 172);
+  background-color: #007bff;
   color: wheat;
   cursor: pointer;
 }

@@ -29,7 +29,7 @@ function Follower({user}) {
         <Avatar src={user?.avatar?.url} />
         <h4 className="name">{user?.name}</h4>
       </div>
-      <h5 onClick={handleFollowAndUnFollow} className = {isFollowing ? "hover-link follow-link tag" : "btn-primary tag"}>{isFollowing ? "UnFollow" : "Follow"}</h5>
+      <h5 onClick={handleFollowAndUnFollow} className = {isFollowing ? "hover-link follow-link unfollow" : "btn-primary tag"}>{isFollowing ? "UnFollow" : "Follow"}</h5>
     </div>
   );
 }

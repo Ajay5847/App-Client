@@ -1,4 +1,5 @@
 $medium: 800px;
+
 .Follower {
     display: flex;
     align-items: center;
@@ -16,13 +17,33 @@ $medium: 800px;
         color: rgb(28, 66, 189);
     }
 
-    @media screen and (max-width: $medium) {
-        .name {
-            display: none;
-        }
+}
 
+@media screen and (max-width: $medium) {
+    .Follower {
+       display: flex;
+       flex-direction: column;
+       border: 1px solid rgb(126, 124, 124);
+       border-radius:20px;
+       gap: 5px;
+
+       h4 {
+        font-size: 0.8rem;
+       }
+
+       .unfollow {
+            border: 1px solid black;
+            padding: 4px 10px;
+            border-radius: 8px;
+            color: #990011FF;
+            // background-color: hsl(0, 0%, 32%);
+       }
         .tag {
-            display: none;
+            font-weight: 100;
+            font-size: 0.8rem;
+            padding: 4px 10px;
+            color: rgb(255, 255, 255);
         }
     }
+
 }
