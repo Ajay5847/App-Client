@@ -17,6 +17,14 @@ $medium: 800px;
         color: rgb(28, 66, 189);
     }
 
+    .unfollow {
+        border: 1px solid black;
+        padding: 4px 10px;
+        border-radius: 8px;
+        color: #990011FF;
+        // background-color: hsl(0, 0%, 32%);
+   }
+
 }
 
 @media screen and (max-width: $medium) {
@@ -31,13 +39,6 @@ $medium: 800px;
         font-size: 0.8rem;
        }
 
-       .unfollow {
-            border: 1px solid black;
-            padding: 4px 10px;
-            border-radius: 8px;
-            color: #990011FF;
-            // background-color: hsl(0, 0%, 32%);
-       }
         .tag {
             font-weight: 100;
             font-size: 0.8rem;
