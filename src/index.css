@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 * {
   margin: 0;
   padding: 0;
@@ -6,10 +7,10 @@
 
 body {
   margin: 0;
-  font-family: -Pacaembu, sans-serif;
+  font-family: 'Poppins', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: rgb(59, 55, 55);
+  /* background-color: rgb(59, 55, 55); */
 }
 
 code {

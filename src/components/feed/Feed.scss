@@ -57,12 +57,31 @@ $medium: 800px;
     @media screen and (max-width: $medium) {
         .container {
             display: flex;
-            flex-direction: column;
-            height: 100%;
+            flex-direction: row;
+            height: 100vh;
         }
 
-        .myself {
+        .aside {
             display: none;
         }
+
+        .right-side {
+            min-width: 110px;
+        }
+
+        .title {
+            font-size: 0.8rem;
+            text-align: center;
+            padding: 2px;
+        }
+
+        .left-side {
+            min-width: 350px;
+            overflow-y: scroll;
+    
+            .create-post {
+                margin-bottom: 10px;
+            }
+        }  
     }
 }

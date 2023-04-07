@@ -1,3 +1,4 @@
+$medium: 800px;
 .Follower {
     display: flex;
     align-items: center;
@@ -13,5 +14,15 @@
 
     .follow-link {
         color: rgb(28, 66, 189);
+    }
+
+    @media screen and (max-width: $medium) {
+        .name {
+            display: none;
+        }
+
+        .tag {
+            display: none;
+        }
     }
 }

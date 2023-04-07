@@ -29,12 +29,12 @@ function Feed() {
           {feedData?.posts?.map((post) => <Post key={post._id} post={post}/>)}
         </div>
         <div className="right-side">
-          <h3 className="title">You are Following</h3>
+          <h3 className="title">Followings</h3>
           <div className="followers">
             {feedData?.followings?.map((user) => <Follower key={user._id} user={user} />)}
           </div>
           <div className="Suggestions">
-          <h3 className="title">Your Suggestions</h3>
+          <h3 className="title">Suggestions</h3>
           {feedData?.Suggestions?.map((user) => <Follower key={user._id} user={user} />)}
           </div>
         </div>
