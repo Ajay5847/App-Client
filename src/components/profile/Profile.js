@@ -64,7 +64,7 @@ function Profile() {
               <h5
                 onClick={handleFollowAndUnFollow}
                 className={
-                  isFollowing ? "hover-link follow-link" : "btn-primary"
+                  isFollowing ? "hover-link follow-link unfollow" : "btn-primary"
                 }
               >
                 {isFollowing ? "UnFollow" : "Follow"}

@@ -66,6 +66,14 @@ $medium: 800px;
                 background-color: rgb(42, 42, 234);
             }
 
+            .unfollow {
+                border: 1px solid black;
+                padding: 4px 10px;
+                border-radius: 8px;
+                color: #990011FF;
+                // background-color: hsl(0, 0%, 32%);
+           }
+           
             .update {
                 background-color: #e1e1e1;
                 color: rgb(0, 0, 0);
