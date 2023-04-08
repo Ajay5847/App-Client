@@ -35,7 +35,6 @@ function UpdateProfile() {
         bio,
         userImg
     }))
-    
   }
 
   return (
